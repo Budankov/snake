@@ -45,6 +45,7 @@ function eatTail(head, arr) {
 }
 
 function drawGame() {
+  ctx.clearRect(0, 0, 609, 609);
   ctx.drawImage(ground, 0, 0);
   ctx.drawImage(keys, 500, 10, 80, 80);
   ctx.drawImage(carrots, food.x, food.y);
